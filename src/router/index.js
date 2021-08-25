@@ -106,13 +106,13 @@ export const constantRoutes = [
             meta: { title: 'Công việc 1' },
             children: [
               {
-                path: 'congviec1',
+                path: 'menu1-2-1',
                 component: () => import('@/views/nested/menu1/menu1-2/menu1-2-1'),
                 name: 'Menu1-2-1',
                 meta: { title: 'Các công việc con' }
               },
               {
-                path: 'congvieccon',
+                path: 'menu1-2-2',
                 component: () => import('@/views/nested/menu1/menu1-2/menu1-2-2'),
                 name: 'Menu1-2-2',
                 meta: { title: 'Test' }
@@ -120,14 +120,14 @@ export const constantRoutes = [
             ]
           },
           {
-            path: 'vatlieu',
+            path: 'menu1-3',
             component: () => import('@/views/nested/menu1/menu1-3'),
             name: 'Menu1-3',
             meta: { title: 'Danh sách vật liệu' },
             hidden: true,
           },
           {
-            path: 'cacben',
+            path: 'menu1-4',
             component: () => import('@/views/nested/menu1/menu1-4'),
             name: 'Menu1-4',
             meta: { title: 'Danh sách các bên' },
